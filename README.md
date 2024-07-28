@@ -27,19 +27,19 @@ This project aims to classify cassava leaf images into four disease categories o
 The dataset consists of 21,367 labeled images collected from a survey in Uganda. Most images were crowdsourced from farmers' gardens and annotated by experts at the National Crops Resources Research Institute (NaCRRI) in collaboration with the AI lab at Makerere University, Kampala. The dataset realistically represents the diagnostic conditions that farmers face.
 
     "0":"Cassava Bacterial Blight (CBB)"
-![leaf](0.png)
+![leaf](images/0.png)
 
     "1":"Cassava Brown Streak Disease (CBSD)"
-![leaf](1.png)
+![leaf](images/1.png)
 
     "2":"Cassava Green Mottle (CGM)"
-![leaf](2.png)
+![leaf](images/2.png)
 
     "3":"Cassava Mosaic Disease (CMD)"
-![leaf](3.png)
+![leaf](images/3.png)
 
     "4":"Healthy"
-![leaf](4.png)
+![leaf](images/4.png)
 
 
 
@@ -81,7 +81,7 @@ Validation accuracy improved from 76.12% in the first epoch to 85.65% in the fin
 ### Visualization
 To better understand the training progress, you can visualize the losses and accuracies using the provided plot_metrics function. This will help in visually analyzing the trends and identifying any potential issues or improvements.
 
-![loss and accuracy plots](output.png)
+![loss and accuracy plots](images/output.png)
 
 
 
